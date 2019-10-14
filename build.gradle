@@ -1,0 +1,35 @@
+plugins {
+
+    id 'application'
+
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+
+}
+
+
+
+repositories {
+
+    mavenCentral()
+
+    jcenter()
+
+}
+
+
+
+dependencies {
+
+    compile 'com.github.almasb:fxgl:11.1-beta'
+
+}
+
+
+
+javafx {
+
+    version = "12"
+
+    modules = [ 'javafx.controls' ]
+
+}
